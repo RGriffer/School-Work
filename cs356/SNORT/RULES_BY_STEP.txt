@@ -1,0 +1,7 @@
+Step 3 Rules:
+alert tcp any any -> $HOME_NET 80 (msg:"HTTP detected by Ryan Griffin"; sid:10002; rev:001;)
+alert tcp any any -> $HOME_NET 23 (msg:"Telnet traffic detected by Ryan Griffin"; sid:10003; rev:001;)
+
+Step 4 Rules:
+reject tcp any any -> $HOME_NET 80 (msg:"HTTP detected by Ryan Griffin"; sid:10002; rev:001;)
+reject tcp any any -> $HOME_NET 23 (msg:"Telnet traffic detected by Ryan Griffin"; sid:10003; rev:001;)

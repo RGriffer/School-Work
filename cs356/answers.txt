@@ -1,0 +1,19 @@
+Name: Ryan Griffin
+Email: rgriffer@colostate.edu
+DETER Username: cos356bt
+
+Original Locations: (in order of intro-#)
+/usr/share/pixmaps/xbzf136INTRO-1.jpg	-Forbidden Planet poster
+/dev/136intro-2jjaj.JPEG   		-Godzilla: King of Monsters Poster
+/var/log/136intro-3.jpg   		-It Came From Outer Space poster
+/etc/wuer136intro-4.JPG			-The Fly poster
+/.hidden/asdf136Intro-5kqlw.jpeg	-2001 A Space Odyssey poster
+
+
+
+1.) /var contains variable data files.
+2.) /dev directory contains the special device files for all the devices.
+3.) see diskfree.txt
+4.) doing "cat /proc/cpuinfo" returns the CPU information. 
+	One of the lines printed from that is:
+	vendor_id       : GenuineIntel
