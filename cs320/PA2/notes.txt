@@ -1,0 +1,24 @@
+iterate through freq dictionary
+turn each entry into priority tuple (PriorityTuple((freqVal, character))
+collect all priority tuples into a list, then heapify that list
+
+heappop off the heap (2 smallest) create new priority tuple of sum of freq, will look like -> (1,'h') (1,'o') -> (2,('h','o')) 
+ASK ABOUT THIS AND WHY FORMATTING IS OFF, SYNTAX ISSUE?
+ALSO ORDERING OFF?
+
+push this new merged priority tuple back onto the heap
+
+go all the way through till (totalCharInLine, (shit ton of nested tuples))
+
+take only shit ton of nested tuples and set it as root
+
+create new dictionary for created codes
+
+create a new function to traverse the tree. (take node, prefix) as the parameters
+    base case if node is leaf
+    add the code generated to the codes dictionary
+    
+    else recurse
+    travel the node to the left, add 0 to the prefix
+    travel the node to the right, add 1 to the prefix
+    
