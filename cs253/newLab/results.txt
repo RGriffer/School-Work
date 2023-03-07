@@ -1,0 +1,21 @@
+1. new returns a void* because it is allocation raw memory, returning a void pointer can make it so that you can cast it to something useful, other types could risk forgetting to cast the pointer to what it really points to.
+
+2.the first and fourth lines of main() call the default new and delete operators defined by the language since on the new line we are passing a primitive data type, the second and third lines call the class specific new operator because we are creating a new object of the class foo so that uses the class specific operator. The fifth and sixth lines of main do the same as the second and third lines but with the class specific delete function because we are deleting objects of class type Foo.
+
+3. forbid1.cc won't compile because the new class function is declared as private which makes it so that we cannot call it in the context it is provided in.
+
+4. forbid2.cc won't compile because the class declaractino of the new operator uses delete which creates an object and then deleted it immediately which is not allowed by the compiler.
+
+5. the mixin class declares its ctor and dtor as protected because we would want the children to inherit the method because it is designed for inheritance. Private would make it so the children can't inherit the method.
+
+6. for errchk.cc I think that I would, after calling delete on an object, I would immediately set the object to a null ptr on the line after it, because deleting a null pointer is fine. And change the delete function to say "hey you deleted a null pointer, maybe go and check where it was called and if you really need it".
+
+7. after looking at the code I would suggest that an emoji be used, and emoji cannot be used as an int or double or pointer. And it would make a bad string, so I think this would work the best.
+
+8. for normal.cc class foo is size 8, the only difference in p and q is the p is 0x20e52c0 and q is 0x20e52e0, meaning the second to last bit is slightly different between them. for pool.cc class Bar is of size 8, and r is value 0x20882c0 while s is of value 0x20882c8 which means the last bit is the only thing that differs between them.
+
+9. you could change bar to inherit from foo and you would be able to use the new and delete class so long as size(bar) <= size(foo), you could fix this by making sure that the size of bar is less than foo in the constructor of bar.
+
+10. normal.cc took 0.35 to run while allocating 10 million objects, pool.cc took 0.09 to run while allocating 10 million objects. I think the cause of this discrepency is because in pool.cc we have some extra code in the new operator overload and (while i'm not quite sure what it does) it seems to shave about 3/4s of the time needed to run off.
+
+11. normal.cc takes up 315556 (not sure the units) of memory, whereas pool.cc takes about 81288 units of memory, this comes out to pool taking roughly 1/4th the memory after running. I assume the overloading of the new operator in pool.cc has something to do with pool.cc taking significantly less space than the normal.cc file.

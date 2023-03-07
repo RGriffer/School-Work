@@ -1,0 +1,10 @@
+exp1: delete[ ] not called
+exp2: delete[] not called and for this one trying to write to it the 10th slot but only 0-9 are allocated.
+exp3: x in this case is never initialized and the second if statement tries to use an uninitialized variable.
+exp4: similar to exp3, the foo call on line 15 calls a y which is never initialized in the program.
+exp5: similar to exp2, line 3 calls x[12345678] which was never intended for use by the program since only x[0-9] are allocated with the x[10] call.
+exp6: this one trys to call greeting but greeting was deleted on the previous line so there is nothing to read causing the issue.
+exp7: With this one the incorrect delete was called, "delete" was used by it needs to be "delete[]".
+exp8: using free() doesn't call the destructor of the object, must use delete[] here.
+exp9: the "a+=3" line causes the because we need to use free() and not delete in this situation.
+exp10: since the variable diff is unsigned it cannot handle a negative number causing it to overflow to the top of int.

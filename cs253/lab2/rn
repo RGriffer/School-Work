@@ -1,0 +1,29 @@
+#! /bin/bash
+
+old_suffix=$1
+new_suffix=$2
+
+if (( $# != 2 ))
+then
+    echo "Incorrect argument amount, please have 2."
+    exit 1
+fi
+
+if (( $# == 0 ))
+then
+    echo "No Arguments, please have 2."
+    exit 1
+fi
+    
+for f in *.$old_suffix
+do
+    if test -f ${f%.*}.$new_suffix
+    then
+    echo ${f%.*}.$new_suffix "already exists, I will not do anything."
+    exit 1
+    fi
+    new_name=${f%.*}.$new_suffix
+    mv ${f%.*}.$old_suffix $new_name
+done
+
+exit 0
