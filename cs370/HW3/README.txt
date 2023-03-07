@@ -1,3 +1,5 @@
+Examples of data transfer through pipes
+
 1. Name the function that is used to create a pipe. (1 points)
 
     pipe() system call
