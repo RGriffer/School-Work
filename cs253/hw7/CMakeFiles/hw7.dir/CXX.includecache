@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/s/bach/c/under/rgriffer/cs253/hw7/Words.cc
+Words.h
+/s/bach/c/under/rgriffer/cs253/hw7/Words.h
+vector
+-
+string
+-
+iostream
+-
+
+/s/bach/c/under/rgriffer/cs253/hw7/Words.h
+vector
+-
+iostream
+-
+string
+-
+
