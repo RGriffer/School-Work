@@ -1,0 +1,166 @@
+cheyenne:~/cs430/Lab9$ javac Lab9.java
+cheyenne:~/cs430/Lab9$ java Lab9
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+URL: jdbc:mysql://faure/rgriffer
+Connection: com.mysql.cj.jdbc.ConnectionImpl@27a8c74e
+Member: 2011 checked in 96-42103-10800 on 06/10/2016 at Main library
+Member: 2011 checked out 96-42103-10011 on 06/10/2016 from South Park library
+Member: 2011 checked out 96-42103-10006 on 06/10/2016 from Main library
+Member: 2012 checked in 96-42103-10002 on 06/10/2016 at Main library
+Member: 2012 checked out 96-42103-10604 on 06/10/2016 from South Park library
+Member: 2012 checked out 96-42103-10709 on 06/10/2016 from Main library
+Error with checkout
+Member: 1400 checked out 96-42103-10022 on 06/10/2016 from South Park library
+Member: 2020 checked in 96-42103-10401 on 06/11/2016 at Main library
+Member: 2020 checked out 96-42103-10709 on 06/11/2016 from South Park library
+Member: 2022 checked in 96-42103-11003 on 06/11/2016 at Main library
+Member: 2022 checked in 96-42103-10109 on 06/11/2016 at Main library
+Member: 2022 checked out 96-42103-10093 on 06/11/2016 from South Park library
+Error with checkout
+Member: 1800 checked out 96-42103-10093 on 06/11/2016 from Main library
+Member: 1800 checked out 96-42103-11709 on 06/11/2016 from Main library
+
+BORROWEDBY TABLE:
+MemberID: 1100 ISBN: 96-42103-10001 CheckoutDate: 4/27/2016 CheckinDate: 4/30/2016 Library: Main
+MemberID: 1100 ISBN: 96-42103-10003 CheckoutDate: 3/23/2016 CheckinDate: 3/24/2016 Library: Main
+MemberID: 1100 ISBN: 96-42103-10040 CheckoutDate: 5/16/2016 CheckinDate: 5/16/2016 Library: Main
+MemberID: 1100 ISBN: 96-42103-10081 CheckoutDate: 3/15/2016 CheckinDate: 3/17/2016 Library: Main
+MemberID: 1100 ISBN: 96-42103-10401 CheckoutDate: 5/14/2016 CheckinDate: 5/16/2016 Library: Main
+MemberID: 1100 ISBN: 96-42103-10604 CheckoutDate: 3/9/2016 CheckinDate: 3/10/2016 Library: Main
+MemberID: 1100 ISBN: 96-42103-10604 CheckoutDate: 4/13/2016 CheckinDate: 4/17/2016 Library: Main
+MemberID: 1100 ISBN: 96-42103-10709 CheckoutDate: 5/18/2016 CheckinDate: 5/21/2016 Library: Main
+MemberID: 1200 ISBN: 96-42103-10081 CheckoutDate: 4/10/2016 CheckinDate: 4/16/2016 Library: Main
+MemberID: 1200 ISBN: 96-42103-10093 CheckoutDate: 3/27/2016 CheckinDate: 3/29/2016 Library: Main
+MemberID: 1200 ISBN: 96-42103-10109 CheckoutDate: 4/15/2016 CheckinDate: 4/18/2016 Library: Main
+MemberID: 1300 ISBN: 96-42103-10001 CheckoutDate: 3/28/2016 CheckinDate: 4/4/2016 Library: Main
+MemberID: 1300 ISBN: 96-42103-10007 CheckoutDate: 5/11/2016 CheckinDate: 5/12/2016 Library: Main
+MemberID: 1300 ISBN: 96-42103-10008 CheckoutDate: 4/20/2016 CheckinDate: 4/26/2016 Library: Main
+MemberID: 1300 ISBN: 96-42103-10022 CheckoutDate: 3/9/2016 CheckinDate: 3/10/2016 Library: Main
+MemberID: 1300 ISBN: 96-42103-10206 CheckoutDate: 5/11/2016 CheckinDate: 5/14/2016 Library: Main
+MemberID: 1400 ISBN: 96-42103-10007 CheckoutDate: 5/6/2016 CheckinDate: 5/11/2016 Library: Main
+MemberID: 1400 ISBN: 96-42103-10008 CheckoutDate: 5/24/2016 CheckinDate: 5/29/2016 Library: Main
+MemberID: 1400 ISBN: 96-42103-10022 CheckoutDate: 06/10/2016 CheckinDate: N/A Library: South Park
+MemberID: 1400 ISBN: 96-42103-10022 CheckoutDate: 3/4/2016 CheckinDate: 3/7/2016 Library: Main
+MemberID: 1400 ISBN: 96-42103-10033 CheckoutDate: 3/26/2016 CheckinDate: 3/29/2016 Library: Main
+MemberID: 1400 ISBN: 96-42103-10800 CheckoutDate: 3/4/2016 CheckinDate: 3/6/2016 Library: Main
+MemberID: 1400 ISBN: 96-42103-11003 CheckoutDate: 3/5/2016 CheckinDate: 3/10/2016 Library: Main
+MemberID: 1500 ISBN: 96-42103-10004 CheckoutDate: 5/14/2016 CheckinDate: 5/16/2016 Library: Main
+MemberID: 1500 ISBN: 96-42103-10800 CheckoutDate: 4/2/2016 CheckinDate: 4/5/2016 Library: Main
+MemberID: 1600 ISBN: 96-42103-10002 CheckoutDate: 5/4/2016 CheckinDate: 5/9/2016 Library: Main
+MemberID: 1600 ISBN: 96-42103-10011 CheckoutDate: 3/20/2016 CheckinDate: 3/20/2016 Library: Main
+MemberID: 1600 ISBN: 96-42103-10206 CheckoutDate: 5/21/2016 CheckinDate: 5/27/2016 Library: Main
+MemberID: 1600 ISBN: 96-42103-10300 CheckoutDate: 3/22/2016 CheckinDate: 3/24/2016 Library: Main
+MemberID: 1600 ISBN: 96-42103-10800 CheckoutDate: 5/10/2016 CheckinDate: 5/13/2016 Library: Main
+MemberID: 1700 ISBN: 96-42103-10004 CheckoutDate: 4/5/2016 CheckinDate: 4/11/2016 Library: Main
+MemberID: 1700 ISBN: 96-42103-10040 CheckoutDate: 5/18/2016 CheckinDate: 5/21/2016 Library: Main
+MemberID: 1700 ISBN: 96-42103-10081 CheckoutDate: 3/5/2016 CheckinDate: 3/8/2016 Library: Main
+MemberID: 1700 ISBN: 96-42103-10604 CheckoutDate: 4/17/2016 CheckinDate: 4/18/2016 Library: Main
+MemberID: 1700 ISBN: 96-42103-10800 CheckoutDate: 4/22/2016 CheckinDate: 4/28/2016 Library: Main
+MemberID: 1700 ISBN: 96-42103-11003 CheckoutDate: 4/17/2016 CheckinDate: 4/20/2016 Library: Main
+MemberID: 1800 ISBN: 96-42103-10011 CheckoutDate: 4/25/2016 CheckinDate: 4/26/2016 Library: Main
+MemberID: 1800 ISBN: 96-42103-10093 CheckoutDate: 06/11/2016 CheckinDate: N/A Library: Main
+MemberID: 1800 ISBN: 96-42103-11709 CheckoutDate: 06/11/2016 CheckinDate: N/A Library: Main
+MemberID: 1900 ISBN: 96-42103-10008 CheckoutDate: 5/1/2016 CheckinDate: 5/1/2016 Library: Main
+MemberID: 2000 ISBN: 96-42103-10005 CheckoutDate: 5/17/2016 CheckinDate: 5/21/2016 Library: Main
+MemberID: 2000 ISBN: 96-42103-10006 CheckoutDate: 5/8/2016 CheckinDate: 5/11/2016 Library: Main
+MemberID: 2000 ISBN: 96-42103-10093 CheckoutDate: 4/12/2016 CheckinDate: 4/12/2016 Library: Main
+MemberID: 2000 ISBN: 96-42103-10109 CheckoutDate: 5/9/2016 CheckinDate: 5/11/2016 Library: Main
+MemberID: 2001 ISBN: 96-42103-10040 CheckoutDate: 4/22/2016 CheckinDate: 4/25/2016 Library: Main
+MemberID: 2002 ISBN: 96-42103-10006 CheckoutDate: 4/27/2016 CheckinDate: 5/2/2016 Library: Main
+MemberID: 2002 ISBN: 96-42103-10008 CheckoutDate: 4/21/2016 CheckinDate: 4/25/2016 Library: Main
+MemberID: 2002 ISBN: 96-42103-10040 CheckoutDate: 5/22/2016 CheckinDate: 5/27/2016 Library: Main
+MemberID: 2002 ISBN: 96-42103-10081 CheckoutDate: 3/4/2016 CheckinDate: 3/6/2016 Library: Main
+MemberID: 2003 ISBN: 96-42103-10033 CheckoutDate: 3/14/2016 CheckinDate: 3/15/2016 Library: Main
+MemberID: 2003 ISBN: 96-42103-10040 CheckoutDate: 4/9/2016 CheckinDate: 4/14/2016 Library: Main
+MemberID: 2003 ISBN: 96-42103-10068 CheckoutDate: 4/12/2016 CheckinDate: 4/16/2016 Library: Main
+MemberID: 2004 ISBN: 96-42103-10007 CheckoutDate: 4/21/2016 CheckinDate: 4/23/2016 Library: Main
+MemberID: 2004 ISBN: 96-42103-10040 CheckoutDate: 4/27/2016 CheckinDate: 5/2/2016 Library: Main
+MemberID: 2004 ISBN: 96-42103-10800 CheckoutDate: 5/13/2016 CheckinDate: 5/17/2016 Library: Main
+MemberID: 2004 ISBN: 96-42103-10800 CheckoutDate: 5/24/2016 CheckinDate: 5/28/2016 Library: Main
+MemberID: 2004 ISBN: 96-42103-10907 CheckoutDate: 5/9/2016 CheckinDate: 5/10/2016 Library: Main
+MemberID: 2005 ISBN: 96-42103-10011 CheckoutDate: 4/20/2016 CheckinDate: 4/22/2016 Library: Main
+MemberID: 2006 ISBN: 96-42103-10800 CheckoutDate: 4/4/2016 CheckinDate: 4/4/2016 Library: Main
+MemberID: 2007 ISBN: 96-42103-10033 CheckoutDate: 3/19/2016 CheckinDate: 3/24/2016 Library: Main
+MemberID: 2007 ISBN: 96-42103-10068 CheckoutDate: 4/19/2016 CheckinDate: 4/20/2016 Library: Main
+MemberID: 2007 ISBN: 96-42103-10709 CheckoutDate: 3/13/2016 CheckinDate: 3/17/2016 Library: Main
+MemberID: 2008 ISBN: 96-42103-10502 CheckoutDate: 3/12/2016 CheckinDate: 3/14/2016 Library: Main
+MemberID: 2008 ISBN: 96-42103-11003 CheckoutDate: 4/4/2016 CheckinDate: 4/8/2016 Library: Main
+MemberID: 2009 ISBN: 96-42103-10002 CheckoutDate: 4/12/2016 CheckinDate: 4/13/2016 Library: Main
+MemberID: 2009 ISBN: 96-42103-10007 CheckoutDate: 3/7/2016 CheckinDate: 3/13/2016 Library: Main
+MemberID: 2009 ISBN: 96-42103-10009 CheckoutDate: 3/20/2016 CheckinDate: 3/22/2016 Library: Main
+MemberID: 2009 ISBN: 96-42103-10022 CheckoutDate: 3/24/2016 CheckinDate: 3/30/2016 Library: Main
+MemberID: 2009 ISBN: 96-42103-10022 CheckoutDate: 4/10/2016 CheckinDate: 4/10/2016 Library: Main
+MemberID: 2009 ISBN: 96-42103-10033 CheckoutDate: 4/30/2016 CheckinDate: 5/2/2016 Library: Main
+MemberID: 2009 ISBN: 96-42103-10054 CheckoutDate: 4/29/2016 CheckinDate: 5/2/2016 Library: Main
+MemberID: 2009 ISBN: 96-42103-10709 CheckoutDate: 4/12/2016 CheckinDate: 4/15/2016 Library: Main
+MemberID: 2009 ISBN: 96-42103-10709 CheckoutDate: 4/30/2016 CheckinDate: 5/3/2016 Library: Main
+MemberID: 2011 ISBN: 96-42103-10006 CheckoutDate: 06/10/2016 CheckinDate: N/A Library: Main
+MemberID: 2011 ISBN: 96-42103-10011 CheckoutDate: 06/10/2016 CheckinDate: N/A Library: South Park
+MemberID: 2011 ISBN: 96-42103-10011 CheckoutDate: 3/9/2016 CheckinDate: 3/11/2016 Library: Main
+MemberID: 2011 ISBN: 96-42103-10040 CheckoutDate: 3/10/2016 CheckinDate: 3/16/2016 Library: Main
+MemberID: 2011 ISBN: 96-42103-10081 CheckoutDate: 3/15/2016 CheckinDate: 3/20/2016 Library: Main
+MemberID: 2011 ISBN: 96-42103-10093 CheckoutDate: 4/20/2016 CheckinDate: 4/20/2016 Library: Main
+MemberID: 2011 ISBN: 96-42103-10800 CheckoutDate: 5/29/2016 CheckinDate: 06/10/2016 Library: Main
+MemberID: 2011 ISBN: 96-42103-11003 CheckoutDate: 3/6/2016 CheckinDate: 3/8/2016 Library: Main
+MemberID: 2012 ISBN: 96-42103-10002 CheckoutDate: 5/27/2016 CheckinDate: 06/10/2016 Library: Main
+MemberID: 2012 ISBN: 96-42103-10006 CheckoutDate: 3/24/2016 CheckinDate: 3/28/2016 Library: Main
+MemberID: 2012 ISBN: 96-42103-10008 CheckoutDate: 4/26/2016 CheckinDate: 4/28/2016 Library: Main
+MemberID: 2012 ISBN: 96-42103-10009 CheckoutDate: 3/28/2016 CheckinDate: 3/29/2016 Library: Main
+MemberID: 2012 ISBN: 96-42103-10604 CheckoutDate: 06/10/2016 CheckinDate: N/A Library: South Park
+MemberID: 2012 ISBN: 96-42103-10709 CheckoutDate: 06/10/2016 CheckinDate: N/A Library: Main
+MemberID: 2012 ISBN: 96-42103-11003 CheckoutDate: 4/4/2016 CheckinDate: 4/9/2016 Library: Main
+MemberID: 2013 ISBN: 96-42103-10008 CheckoutDate: 4/19/2016 CheckinDate: 4/23/2016 Library: Main
+MemberID: 2013 ISBN: 96-42103-10033 CheckoutDate: 5/17/2016 CheckinDate: 5/21/2016 Library: Main
+MemberID: 2013 ISBN: 96-42103-10054 CheckoutDate: 3/26/2016 CheckinDate: 3/29/2016 Library: Main
+MemberID: 2015 ISBN: 96-42103-10009 CheckoutDate: 3/15/2016 CheckinDate: 3/19/2016 Library: Main
+MemberID: 2016 ISBN: 96-42103-10001 CheckoutDate: 4/7/2016 CheckinDate: 4/8/2016 Library: Main
+MemberID: 2016 ISBN: 96-42103-10033 CheckoutDate: 4/28/2016 CheckinDate: 4/30/2016 Library: Main
+MemberID: 2016 ISBN: 96-42103-10206 CheckoutDate: 5/15/2016 CheckinDate: 5/15/2016 Library: Main
+MemberID: 2016 ISBN: 96-42103-10206 CheckoutDate: 5/9/2016 CheckinDate: 5/14/2016 Library: Main
+MemberID: 2016 ISBN: 96-42103-10907 CheckoutDate: 3/21/2016 CheckinDate: 3/22/2016 Library: Main
+MemberID: 2016 ISBN: 96-42103-10907 CheckoutDate: 3/6/2016 CheckinDate: 3/8/2016 Library: Main
+MemberID: 2016 ISBN: 96-42103-10907 CheckoutDate: 4/22/2016 CheckinDate: 4/28/2016 Library: Main
+MemberID: 2017 ISBN: 96-42103-10004 CheckoutDate: 3/14/2016 CheckinDate: 3/16/2016 Library: Main
+MemberID: 2017 ISBN: 96-42103-10093 CheckoutDate: 3/19/2016 CheckinDate: 3/23/2016 Library: Main
+MemberID: 2017 ISBN: 96-42103-10300 CheckoutDate: 5/1/2016 CheckinDate: 5/5/2016 Library: Main
+MemberID: 2017 ISBN: 96-42103-10300 CheckoutDate: 5/20/2016 CheckinDate: 5/26/2016 Library: Main
+MemberID: 2017 ISBN: 96-42103-10709 CheckoutDate: 4/20/2016 CheckinDate: 4/25/2016 Library: Main
+MemberID: 2018 ISBN: 96-42103-10004 CheckoutDate: 3/25/2016 CheckinDate: 3/27/2016 Library: Main
+MemberID: 2018 ISBN: 96-42103-10008 CheckoutDate: 5/10/2016 CheckinDate: 5/10/2016 Library: Main
+MemberID: 2018 ISBN: 96-42103-10033 CheckoutDate: 3/5/2016 CheckinDate: 3/7/2016 Library: Main
+MemberID: 2018 ISBN: 96-42103-10033 CheckoutDate: 4/1/2016 CheckinDate: 4/7/2016 Library: Main
+MemberID: 2018 ISBN: 96-42103-10206 CheckoutDate: 3/5/2016 CheckinDate: 3/11/2016 Library: Main
+MemberID: 2018 ISBN: 96-42103-10206 CheckoutDate: 5/12/2016 CheckinDate: 5/17/2016 Library: Main
+MemberID: 2018 ISBN: 96-42103-10300 CheckoutDate: 4/5/2016 CheckinDate: 4/10/2016 Library: Main
+MemberID: 2018 ISBN: 96-42103-10709 CheckoutDate: 4/20/2016 CheckinDate: 4/25/2016 Library: Main
+MemberID: 2018 ISBN: 96-42103-10907 CheckoutDate: 3/16/2016 CheckinDate: 3/20/2016 Library: Main
+MemberID: 2019 ISBN: 96-42103-10009 CheckoutDate: 3/11/2016 CheckinDate: 3/12/2016 Library: Main
+MemberID: 2020 ISBN: 96-42103-10022 CheckoutDate: 4/9/2016 CheckinDate: 4/10/2016 Library: Main
+MemberID: 2020 ISBN: 96-42103-10093 CheckoutDate: 4/8/2016 CheckinDate: 4/12/2016 Library: Main
+MemberID: 2020 ISBN: 96-42103-10206 CheckoutDate: 5/13/2016 CheckinDate: 5/18/2016 Library: Main
+MemberID: 2020 ISBN: 96-42103-10401 CheckoutDate: 5/29/2016 CheckinDate: 06/11/2016 Library: Main
+MemberID: 2020 ISBN: 96-42103-10709 CheckoutDate: 06/11/2016 CheckinDate: N/A Library: South Park
+MemberID: 2021 ISBN: 96-42103-10001 CheckoutDate: 5/21/2016 CheckinDate: 5/26/2016 Library: Main
+MemberID: 2021 ISBN: 96-42103-10033 CheckoutDate: 3/14/2016 CheckinDate: 3/16/2016 Library: Main
+MemberID: 2021 ISBN: 96-42103-10054 CheckoutDate: 4/29/2016 CheckinDate: 4/30/2016 Library: Main
+MemberID: 2022 ISBN: 96-42103-10003 CheckoutDate: 5/6/2016 CheckinDate: 5/9/2016 Library: Main
+MemberID: 2022 ISBN: 96-42103-10009 CheckoutDate: 3/25/2016 CheckinDate: 3/29/2016 Library: Main
+MemberID: 2022 ISBN: 96-42103-10011 CheckoutDate: 5/3/2016 CheckinDate: 5/6/2016 Library: Main
+MemberID: 2022 ISBN: 96-42103-10081 CheckoutDate: 3/26/2016 CheckinDate: 3/30/2016 Library: Main
+MemberID: 2022 ISBN: 96-42103-10093 CheckoutDate: 06/11/2016 CheckinDate: N/A Library: South Park
+MemberID: 2022 ISBN: 96-42103-10093 CheckoutDate: 3/27/2016 CheckinDate: 3/29/2016 Library: Main
+MemberID: 2022 ISBN: 96-42103-10109 CheckoutDate: 4/16/2016 CheckinDate: 06/11/2016 Library: Main
+MemberID: 2022 ISBN: 96-42103-10502 CheckoutDate: 3/26/2016 CheckinDate: 4/1/2016 Library: Main
+MemberID: 2022 ISBN: 96-42103-11003 CheckoutDate: 6/1/2016 CheckinDate: 06/11/2016 Library: Main
+
+5b.
+Book: Last Train to Clarksville Library: Main
+Book: Database Theory Library: South Park
+Book: Challenging Puzzles Library: South Park
+Book: Fixing Computers Library: Main
+Book: Fixing Computers Library: South Park
+Book: Using the Library Library: South Park
+Book: Too Many Cooks Library: Main
+Book: Too Many Cooks Library: South Park
+Book: Green Eggs Library: Main
+cheyenne:~/cs430/Lab9$
