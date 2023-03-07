@@ -1,0 +1,1 @@
+Classwork for this class is kept in a private repository at the request of the instructor in order to curb cheating, if you would like to see this repository please send me a message and i will send you a copy of the repository
