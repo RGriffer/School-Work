@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/s/bach/c/under/rgriffer/cs253/hw6/hw6/main.cc
+sys/types.h
+-
+unistd.h
+-
+cstdlib
+-
+wait.h
+-
+vector
+-
+string
+-
+fcntl.h
+-
+iostream
+-
+fstream
+-
+stdlib.h
+-
+stdio.h
+-
+
