@@ -1,4 +1,4 @@
-All Computer Science classes that I have taken at CSU
+All Computer Science courses that I have taken at CSU
 cs150 - Introduction to Programming - Java
 cs164 - CS1
 cs165 - Data Structures
