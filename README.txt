@@ -14,3 +14,5 @@ cs415 - Software Testing (KEPT PRIVATE AT REQUEST OF INSTRUCTOR, MESSAGE FOR A C
 cs430 - Database Systems
 cs458 - Blockchain Principles and Applications
 cs464 - Principles of Human-Computer Interactions
+
+(Java vastly underrepresented due to 314 & 415 cosisting entirely of Java backends.)
